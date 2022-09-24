@@ -24,7 +24,7 @@ namespace MonoScraper
             dynamic obj = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
             double btcPrice = obj.bpi.USD.rate_float.Value;
 
-            return btcPrice;
+            return Math.Round((Double)btcPrice, 2);
         }
 
         static double Converter(int usd)
