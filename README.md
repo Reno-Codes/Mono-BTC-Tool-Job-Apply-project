@@ -2,7 +2,6 @@
 ```python
 Junior Web Dev job apply
 ```
-# Mono's BTC Tool
 
 Mono's BTC Tool is a simple BTC tool written in C# to check latest BTC price or to convert USD to BTC.
 
